@@ -10,12 +10,10 @@
 }
 
 .dark {
-  :root {
-    --background: #030304;
-    --foreground: #ffffff;
-    --primary: #522ffe;
-    --card: #1d1d1d;
-  }
+  --background: #030304;
+  --foreground: #ffffff;
+  --primary: #522ffe;
+  --card: #1d1d1d;
 }
 
 body {
