@@ -9,17 +9,17 @@ const Hero = () => {
         md:gap-[34px] md:my-[58px] md:items-start'>
             <h1 className='text-2xl/1 text-center font-semibold 
             block md:text-[40px] md:text-start md:inline'>
-                <span className='-ml-3'>👋</span> Hello I'm Xian Hu, I'm a
+                <span className='-ml-3'>👋</span> Hello I&#8217;m Xian Hu, I&#8217;m a
                 {" "}
                 <span className='block text-[27px] highlight mt-2 md:text-[45px]
                 md:inline md:mt-0'>Software Engineer</span>
             </h1>
             <p className='text-center text-sm mx-6 md:text-[22px] md:text-start md:mx-0'>
-                I'm obsessed with code and helping startups create unique and helpful products.
+                I&#8217;m obsessed with code and helping startups create unique and helpful products.
             </p>
             <a href="mailto:huxian126@gmail.com" className='self-center bg-primary text-white
             p-2.5 rounded flex gap-2.5 items-center text-sm md:self-start md:text-xl/6'>
-                Let's Connect 
+                Let&#8217;s Connect 
                 <img src="/arrow_right_icon.svg" alt="arrow right icon" />
             </a>
         </div>
