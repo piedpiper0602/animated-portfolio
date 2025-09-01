@@ -1,0 +1,23 @@
+[
+    {
+        "image": "/company_1.png",
+        "company": "Command R",
+        "role": "Software Developer",
+        "description": "Developed and maintained web applications using React, Node.js, and MongoDB.",
+        "dates": "Jun 2025 - Aug 2025"
+    },
+    {
+        "image": "/company_2.png",
+        "company": "Command R",
+        "role": "Software Developer",
+        "description": "Developed and maintained web applications using React, Node.js, and MongoDB.",
+        "dates": "Jun 2025 - Aug 2025"
+    },
+    {
+        "image": "/company_3.png",
+        "company": "Command R",
+        "role": "Software Developer",
+        "description": "Developed and maintained web applications using React, Node.js, and MongoDB.",
+        "dates": "Jun 2025 - Aug 2025"
+    }
+]

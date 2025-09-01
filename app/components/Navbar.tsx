@@ -88,9 +88,9 @@ const Navbar = () => {
           </li>
           <li>
             <div
-              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "experiences" })}
-              onClick={() => {setActiveSection("experiences");
-                scrollToSection("experiences");
+              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "experience" })}
+              onClick={() => {setActiveSection("experience");
+                scrollToSection("experience");
                 setIsOpen(false);
               }}
             >

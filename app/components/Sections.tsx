@@ -1,6 +1,8 @@
 import React from 'react'
 import Hero from './Hero/Hero'
 import Skills from './Skills/Skills'
+import Experiences from './Experiences/Experiences'
+import Contact from './Contact'
 
 const Sections = () => {
   return (
@@ -8,6 +10,8 @@ const Sections = () => {
     pt-[236px] md:pt-60 mx-auto'>
         <Hero />
         <Skills />
+        <Experiences />
+        <Contact />
     </main>
   )
 }
