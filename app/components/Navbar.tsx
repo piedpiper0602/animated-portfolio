@@ -2,6 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import cn from "classnames";
+import Reveal from "./Reveal";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,81 +36,83 @@ const Navbar = () => {
           alt="menu icon"
         />
       </button>
-      <nav
-        className={cn("bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out", {
-          "opacity-100": isOpen,
-          "opacity-0 md:opacity-100": !isOpen,
-      })}
-      >
-        <ul className="flex flex-col items-center gap-4 text-lg font-formal md:flex-row">
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "home" })}
-              onClick={() => {setActiveSection("home");
-                scrollToSection("home");
-                setIsOpen(false);
-              }}
-            >
-              Home
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "skills" })}
-              onClick={() => {setActiveSection("skills");
-                scrollToSection("skills");
-                setIsOpen(false);
-              }}
-            >
-              Skills
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "projects" })}
-              onClick={() => {setActiveSection("projects");
-                scrollToSection("projects");
-                setIsOpen(false);
-              }}
-            >
-              Projects
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "testimonials" })}
-              onClick={() => {setActiveSection("testimonials");
-                scrollToSection("testimonials");
-                setIsOpen(false);
-              }}
-            >
-              Testimonials
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "experience" })}
-              onClick={() => {setActiveSection("experience");
-                scrollToSection("experience");
-                setIsOpen(false);
-              }}
-            >
-              Experiences
-            </div>
-          </li>
-          <li>
-            <div
-              className={cn("rounded p-1 whitespace-nowrap duration-300 ease-in-out", { "bg-primary text-white": activeSection === "contact" })}
-              onClick={() => {setActiveSection("contact");
-                scrollToSection("contact");
-                setIsOpen(false);
-              }}
-            >
-              Contact Me
-            </div>
-          </li>
-        </ul>
-      </nav>
+      <Reveal initialY={-20} duration={0.5}>
+        <nav
+          className={cn("bg-background card-shadow p-3 rounded md:block duration-300 ease-in-out", {
+            "opacity-100": isOpen,
+            "opacity-0 md:opacity-100": !isOpen,
+        })}
+        >
+          <ul className="flex flex-col items-center gap-4 text-lg font-formal md:flex-row">
+            <li>
+              <div
+                className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "home" })}
+                onClick={() => {setActiveSection("home");
+                  scrollToSection("home");
+                  setIsOpen(false);
+                }}
+              >
+                Home
+              </div>
+            </li>
+            <li>
+              <div
+                className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "skills" })}
+                onClick={() => {setActiveSection("skills");
+                  scrollToSection("skills");
+                  setIsOpen(false);
+                }}
+              >
+                Skills
+              </div>
+            </li>
+            <li>
+              <div
+                className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "projects" })}
+                onClick={() => {setActiveSection("projects");
+                  scrollToSection("projects");
+                  setIsOpen(false);
+                }}
+              >
+                Projects
+              </div>
+            </li>
+            <li>
+              <div
+                className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "testimonials" })}
+                onClick={() => {setActiveSection("testimonials");
+                  scrollToSection("testimonials");
+                  setIsOpen(false);
+                }}
+              >
+                Testimonials
+              </div>
+            </li>
+            <li>
+              <div
+                className={cn("rounded p-1 duration-300 ease-in-out", { "bg-primary text-white": activeSection === "experience" })}
+                onClick={() => {setActiveSection("experience");
+                  scrollToSection("experience");
+                  setIsOpen(false);
+                }}
+              >
+                Experiences
+              </div>
+            </li>
+            <li>
+              <div
+                className={cn("rounded p-1 whitespace-nowrap duration-300 ease-in-out", { "bg-primary text-white": activeSection === "contact" })}
+                onClick={() => {setActiveSection("contact");
+                  scrollToSection("contact");
+                  setIsOpen(false);
+                }}
+              >
+                Contact Me
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </Reveal>
     </div>
   );
 };
