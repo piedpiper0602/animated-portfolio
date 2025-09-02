@@ -18,7 +18,7 @@ const Contact = () => {
                 <a href="mailto:huxian126@gmail.com" 
                 className='self-center md:self-start bg-primary text-white
                 p-2.5 rounded flex gap-2.5 items-center text-lg md:text-xl/1
-                font-normal'>Let's get in touch
+                font-normal'>Let&#8217;s get in touch
                 <img src="/mail_icon.svg" alt="Mail Icon" />
                 </a>
 
