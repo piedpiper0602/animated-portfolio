@@ -20,7 +20,27 @@
         "icon": "/html_icon.png"
     },
     {
+        "name": "Node JS",
+        "icon": "/nodejs_icon.png"
+    },
+    {
         "name": "React JS",
         "icon": "/react_icon.png"
+    },
+    {
+        "name": "Next JS",
+        "icon": "/Nextjs.png"
+    },
+    {
+        "name": "Spring Boot",
+        "icon": "/spring_icon.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "/postgressql_icon.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "/aws_icon.png"
     }
 ]

@@ -49,8 +49,8 @@ const Hero = () => {
                 absolute right-0 top-0 -z-10 group-hover:scale-[102%]
                 group-hover:rotate-2 ease-in-out duration-300'/>
             <Image 
-                src="/profile_picture.png"
-                alt='John Doe profile'
+                src="/profile.png"
+                alt='Xian Hu profile'
                 width={357}
                 height={417}
                 className='hidden md:block min-w-[357px] h-[417px] 
