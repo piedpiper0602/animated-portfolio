@@ -40,19 +40,19 @@ const Contact = () => {
                             className='dark:hidden'
                         />
                     </a>
-                    <a href="https://www.x.com"
+                    <a href="https://www.linkedin.com/in/xian-hu-8b274a237/"
                     className='contact-button'>
                         <Image
-                            src='/twitter_icon_dark.svg'
-                            alt='Twitter Icon'
-                            width={14}
+                            src='/linkedin_icon_dark.svg'
+                            alt='Linkedin Icon'
+                            width={16}
                             height={17}
                             className='hidden dark:block'
                         />
                         <Image
-                            src='/twitter_icon.svg'
-                            alt='Twitter Icon'
-                            width={14}
+                            src='/linkedin_icon.svg'
+                            alt='Linkedin Icon'
+                            width={16}
                             height={17}
                             className='dark:hidden'
                         />
