@@ -36,6 +36,10 @@
         "icon": "/spring_icon.png"
     },
     {
+        "name": "Python",
+        "icon": "/python_icon.png"
+    },
+    {
         "name": "PostgreSQL",
         "icon": "/postgressql_icon.png"
     },
