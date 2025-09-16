@@ -36,12 +36,12 @@
         "icon": "/spring_icon.png"
     },
     {
-        "name": "Python",
-        "icon": "/python_icon.png"
+        "name": "PHP",
+        "icon": "/php_icon.png"
     },
     {
-        "name": "PostgreSQL",
-        "icon": "/postgressql_icon.png"
+        "name": "WordPress",
+        "icon": "/wordpress_icon.png"
     },
     {
         "name": "AWS",
