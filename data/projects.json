@@ -1,0 +1,22 @@
+[
+    {
+        "thumbnail": "/weather_thumbnail.png",
+        "title": "Weather App",
+        "link": {
+            "label": "Live Demo",
+            "url": "https://weather-app-one-psi-95.vercel.app/"
+        },
+        "description": "A weather forecast app built with React and the Meteosource Weather API.",
+        "languageIcons":["/react_icon.png", "/js_icon.png", "/html_icon.png", "/css_icon.png"]
+    },
+    {
+        "thumbnail": "/lms_thumbnail.png",
+        "title": "LMS Website",
+        "link": {
+            "label": "Live Demo",
+            "url": "https://edemy-cyan-three.vercel.app/"
+        },
+        "description": "A learning management system website built with MERN stack. More features to come!",
+        "languageIcons":["/react_icon.png", "nodejs_icon.png", "/mongodb_icon.png", "/expressjs_icon.png"]
+    }
+]
