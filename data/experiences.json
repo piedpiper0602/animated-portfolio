@@ -3,21 +3,21 @@
         "image": "/company_1.png",
         "company": "Misti",
         "role": "Software Developer",
-        "description": "Collaborated in the development of MedMisti, a companion app for smart nebuliser devices.",
-        "dates": "Jun 2025 - Aug 2025"
+        "description": "Collaborated in the softwaredevelopment of MedMisti, a companion app for smart nebuliser devices.",
+        "dates": "Jun 2025 - Present"
     },
     {
         "image": "/company_2.png",
         "company": "University of Melbourne",
         "role": "Project Mentor",
         "description": "Supported student teams in the IT projects to develop software solutions for the university research office. Guided teams through software development process, facilitating workshop every week.",
-        "dates": "Jun 2025 - Aug 2025"
+        "dates": "Jul 2024 - Dec 2024"
     },
     {
         "image": "/company_3.png",
         "company": "SideChef",
         "role": "Software Engineer Intern",
         "description": "Implemented UI test automation for SideChef's web application using TypeScript and Playwright framework. Improved test coverage by 15% and supported supervisor in streamlining the test suite.",
-        "dates": "Jun 2025 - Aug 2025"
+        "dates": "Nov 2023 - Feb 2024"
     }
 ]
