@@ -1,10 +1,17 @@
 [
     {
+        "image": "/company_3.png",
+        "company": "Coplanar Technologies Inc.",
+        "role": "Associate Software Engineer",
+        "description": "Developed the frontend for the restaurant ordering system using React and TypeScript",
+        "dates": "Aug 2025 - Present"
+    },
+    {
         "image": "/company_1.png",
         "company": "Misti",
-        "role": "Software Developer",
+        "role": "Software Developer (Contract)",
         "description": "Collaborated in the softwaredevelopment of MedMisti, a companion app for smart nebuliser devices.",
-        "dates": "Jun 2025 - Present"
+        "dates": "Jun 2025 - Aug 2025"
     },
     {
         "image": "/company_2.png",
